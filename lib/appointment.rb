@@ -4,7 +4,7 @@ class Appointment
   
   def intitalize(date, doctor)
     @data = date 
-    
+    doctor.add_appointment
   end
   
 end
